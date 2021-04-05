@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GameTest.cpp" />
+    <ClCompile Include="App\app.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\main.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleSprite.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleSound.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleController.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\TextureLoader.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Action.cpp" />
+    <ClCompile Include="Core\InputComponent.cpp" />
+    <ClCompile Include="Core\SpriteComponent.cpp" />
+    <ClCompile Include="Core\GameObject.cpp" />
+    <ClCompile Include="Core\SceneObjects.cpp" />
+    <ClCompile Include="Game\EnemyComponent.cpp" />
+    <ClCompile Include="Game\EnemyFactory.cpp" />
+    <ClCompile Include="Game\Map.cpp" />
+    <ClCompile Include="Game\TowerComponent.cpp" />
+    <ClCompile Include="Game\MapUnit.cpp" />
+    <ClCompile Include="Game\TowerSelector.cpp" />
+    <ClCompile Include="Game\TowerFactory.cpp" />
+    <ClCompile Include="Game\SpawnComponent.cpp" />
+    <ClCompile Include="Game\PlayerComponent.cpp" />
+    <ClCompile Include="Game\HomeBaseComponent.cpp" />
+    <ClCompile Include="Game\Pathfinding.cpp" />
+    <ClCompile Include="Utility\MapUtility.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App\app.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\AppSettings.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\main.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleSprite.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleSound.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleController.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\TextureLoader.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\ScopedTimer.h" />
+    <ClInclude Include="Core\Action.h" />
+    <ClInclude Include="Core\Component.h" />
+    <ClInclude Include="Core\GameObject.h" />
+    <ClInclude Include="Core\InputComponent.h" />
+    <ClInclude Include="Core\SpriteComponent.h" />
+    <ClInclude Include="Core\Vector.h" />
+    <ClInclude Include="Core\SceneObjects.h" />
+    <ClInclude Include="Game\EnemyComponent.h" />
+    <ClInclude Include="Game\EnemyFactory.h" />
+    <ClInclude Include="Game\MapUnit.h" />
+    <ClInclude Include="Game\Map.h" />
+    <ClInclude Include="Game\TowerComponent.h" />
+    <ClInclude Include="Game\TowerSelector.h" />
+    <ClInclude Include="Game\TowerFactory.h" />
+    <ClInclude Include="Game\SpawnComponent.h" />
+    <ClInclude Include="Game\PlayerComponent.h" />
+    <ClInclude Include="Game\HomeBaseComponent.h" />
+    <ClInclude Include="Core\Observer.h" />
+    <ClInclude Include="Core\AStar.h" />
+    <ClInclude Include="Utility\MapUtility.h" />
+    <ClInclude Include="Game\Pathfinding.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="API">
+      <UniqueIdentifier>{3e1485bf-3449-4966-8760-976ee866544b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
